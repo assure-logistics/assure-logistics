@@ -1,0 +1,12 @@
+{
+  "buildCommand": "cd ../.. && pnpm --filter @workspace/assure-logistics run build",
+  "outputDirectory": "dist/public",
+  "installCommand": "cd ../.. && pnpm install",
+  "framework": null,
+  "env": {
+    "VITE_API_URL": "https://your-api-server.onrender.com"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

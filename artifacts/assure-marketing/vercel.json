@@ -1,0 +1,15 @@
+{
+  "buildCommand": "cd ../.. && pnpm --filter @workspace/assure-marketing run build",
+  "outputDirectory": "dist/public",
+  "installCommand": "cd ../.. && pnpm install",
+  "framework": null,
+  "env": {
+    "VITE_EMAILJS_SERVICE_ID": "@vite_emailjs_service_id",
+    "VITE_EMAILJS_TEMPLATE_ID": "@vite_emailjs_template_id",
+    "VITE_EMAILJS_PUBLIC_KEY": "@vite_emailjs_public_key",
+    "VITE_API_URL": "@vite_api_url"
+  },
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}

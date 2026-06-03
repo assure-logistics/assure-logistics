@@ -4,12 +4,9 @@ packages:
   - lib/integrations/*
   - scripts
 
-<<<<<<< HEAD
 allowBuilds:
   esbuild: true
 
-=======
->>>>>>> 9c73d51a371792d0c8deeac35a172d1bc6fb27ae
 autoInstallPeers: false
 
 catalog:
